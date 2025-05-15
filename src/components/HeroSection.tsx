@@ -55,8 +55,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onExploreClick, onPartnerClic
           </h1>
 
           <div className="flex space-x-4">
-            <Button onClick={onExploreClick} iconRight={<ArrowRight className="w-4 h-4" />}>
+            <Button onClick={onExploreClick}>
               Explore Solutions
+              <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
             <Button variant="outline" onClick={onPartnerClick}>
               Become a Partner
