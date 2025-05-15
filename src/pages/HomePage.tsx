@@ -7,6 +7,7 @@ import ImplementationSection from '../components/ImplementationSection';
 import EconomicsSection from '../components/EconomicsSection';
 import PartnershipsSection from '../components/PartnershipsSection';
 import SDGAlignmentSection from '../components/SDGAlignmentSection';
+import NewsSection from '../components/NewsSection';
 import ContactSection from '../components/ContactSection';
 import PartnerModal from '../components/modals/PartnerModal';
 
@@ -33,6 +34,7 @@ const HomePage: React.FC = () => {
       <EconomicsSection />
       <PartnershipsSection />
       <SDGAlignmentSection />
+      <NewsSection />
       <ContactSection />
       
       <PartnerModal 
