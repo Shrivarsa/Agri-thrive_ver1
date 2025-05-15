@@ -21,7 +21,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onExploreClick, onPartnerClic
           loop
           playsInline
           src="https://player.vimeo.com/external/373787103.hd.mp4?s=48b39f125e811e06a7b25f2af41936ed8fbd9096&profile_id=175&oauth2_token_id=57447761"
-          poster="https://images.pexels.com/photos/68494/pexels-photo-68494.jpeg"
+          poster="https://ik.imagekit.io/sc8yurdyd/silos_corn_field2.webp?updatedAt=1747297547004"
         >
           <source
             src="https://player.vimeo.com/external/373787103.hd.mp4?s=48b39f125e811e06a7b25f2af41936ed8fbd9096&profile_id=175&oauth2_token_id=57447761"
@@ -43,11 +43,11 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onExploreClick, onPartnerClic
             Turning Waste Into Fuel.<br />
             <span className="text-green-400">Powering Nations.</span>
           </h1>
-          
+
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl">
             At Agri-BioFuels Global Ltd, we transform agricultural waste into sustainable aviation and maritime fuel, creating environmental and economic value across the supply chain.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <Button 
               variant="primary" 
@@ -58,7 +58,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onExploreClick, onPartnerClic
             >
               Explore Our Technology
             </Button>
-            
+
             <Button 
               variant="outline" 
               size="lg" 
@@ -70,12 +70,12 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onExploreClick, onPartnerClic
           </div>
         </div>
       </div>
-      
+
       {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center text-white/80 animate-bounce">
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center text-white/80 animate-bounce z-20">
         <div className="text-sm font-medium mb-2">Scroll to explore</div>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M12 5V19M12 19L19 12M12 19L5 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M12 5V19M12 19L19 12M12 19L5 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
       </div>
     </section>
